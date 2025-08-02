@@ -23,6 +23,22 @@
     DB_PASSWORD=ваш_пароль
     SECRET_KEY=ваш_секретный_ключ
 
+### Описание переменных окружения
+
+`DB_ENGINE` Движок базы данных (для PostgreSQL используйте `django.db.backends.postgresql`) [ENGINE](https://docs.djangoproject.com/en/5.2/ref/settings/#engine)
+
+`DB_HOST`	Адрес сервера базы данных [Host](https://docs.djangoproject.com/en/5.2/ref/settings/#host)
+
+`DB_PORT`	Порт подключения к БД (по умолчанию 5432 для PostgreSQL) [PORT](https://docs.djangoproject.com/en/5.2/ref/settings/#port)
+
+`DB_NAME`	Имя базы данных [NAME](https://docs.djangoproject.com/en/5.2/ref/settings/#name)
+
+`DB_USER`	Пользователь БД [USER](https://docs.djangoproject.com/en/5.2/ref/settings/#user)
+
+`DB_PASSWORD`	Пароль пользователя БД [PASSWORD](https://docs.djangoproject.com/en/5.2/ref/settings/#password)
+
+`SECRET_KEY`	Криптографический ключ для защиты Django. Должен быть уникальным! [SECRET_KEY](https://docs.djangoproject.com/en/5.2/ref/settings/#secret-key)
+
 ## Что делать, если нет доступа к БД
 1. Изучите код работы с Django ORM
 2. Можете заменить настройки в .env на тестовую БД
